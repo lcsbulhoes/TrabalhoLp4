@@ -13,3 +13,22 @@ c:\users\alunoct\documents\visual studio 2017\Projects\TarefaLP4\TarefaLP4\obj\D
 c:\users\alunoct\documents\visual studio 2017\Projects\TarefaLP4\TarefaLP4\obj\Debug\TarefaLP4.csproj.GenerateResource.Cache
 c:\users\alunoct\documents\visual studio 2017\Projects\TarefaLP4\TarefaLP4\obj\Debug\TarefaLP4.exe
 c:\users\alunoct\documents\visual studio 2017\Projects\TarefaLP4\TarefaLP4\obj\Debug\TarefaLP4.pdb
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\bin\Debug\TarefaLP4.exe.config
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\TarefaLP4.exe
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\TarefaLP4.pdb
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\bin\Debug\TarefaLP4.exe
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\bin\Debug\TarefaLP4.pdb
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\bin\Debug\MySql.Data.dll
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\TarefaLP4.csprojResolveAssemblyReference.cache
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\TelaInicial.baml
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\Consultar.g.cs
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\MainWindow.g.cs
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\TelaInicial.g.cs
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\App.g.cs
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\TarefaLP4_MarkupCompile.cache
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\TarefaLP4_MarkupCompile.lref
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\Consultar.baml
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\MainWindow.baml
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\TarefaLP4.g.resources
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\TarefaLP4.Properties.Resources.resources
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\TarefaLP4.csproj.GenerateResource.Cache

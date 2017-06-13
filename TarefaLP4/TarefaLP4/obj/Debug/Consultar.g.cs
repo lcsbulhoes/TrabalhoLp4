@@ -41,7 +41,7 @@ namespace TarefaLP4 {
     public partial class Consultar : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
         
-        #line 14 "..\..\Consultar.xaml"
+        #line 10 "..\..\Consultar.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox txtAlunoBuscado;
         
@@ -49,7 +49,7 @@ namespace TarefaLP4 {
         #line hidden
         
         
-        #line 15 "..\..\Consultar.xaml"
+        #line 11 "..\..\Consultar.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox txtMostrarRelatorio;
         
@@ -57,7 +57,7 @@ namespace TarefaLP4 {
         #line hidden
         
         
-        #line 16 "..\..\Consultar.xaml"
+        #line 12 "..\..\Consultar.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label lblNomeAlunoBuscado;
         
@@ -65,7 +65,7 @@ namespace TarefaLP4 {
         #line hidden
         
         
-        #line 26 "..\..\Consultar.xaml"
+        #line 22 "..\..\Consultar.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnBuscar;
         
@@ -114,7 +114,7 @@ namespace TarefaLP4 {
             case 4:
             this.btnBuscar = ((System.Windows.Controls.Button)(target));
             
-            #line 26 "..\..\Consultar.xaml"
+            #line 22 "..\..\Consultar.xaml"
             this.btnBuscar.Click += new System.Windows.RoutedEventHandler(this.btnBuscar_Click);
             
             #line default
