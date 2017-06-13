@@ -20,3 +20,6 @@ c:\users\alunoct\documents\visual studio 2013\Projects\TrabalhoLP4\TrabalhoLP4\o
 c:\users\alunoct\documents\visual studio 2013\Projects\TrabalhoLP4\TrabalhoLP4\obj\Debug\Atualizar.g.cs
 c:\users\alunoct\documents\visual studio 2013\Projects\TrabalhoLP4\TrabalhoLP4\obj\Debug\Consultar.g.cs
 c:\users\alunoct\documents\visual studio 2013\Projects\TrabalhoLP4\TrabalhoLP4\obj\Debug\Excluir.g.cs
+D:\TrabalhoLp4\TrabalhoLP4\TrabalhoLP4\bin\Debug\TrabalhoLP4.exe.config
+D:\TrabalhoLp4\TrabalhoLP4\TrabalhoLP4\obj\Debug\TrabalhoLP4.exe
+D:\TrabalhoLp4\TrabalhoLP4\TrabalhoLP4\obj\Debug\TrabalhoLP4.pdb
