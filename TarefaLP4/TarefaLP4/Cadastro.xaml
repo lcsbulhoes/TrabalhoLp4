@@ -8,7 +8,7 @@
         Title="Cadastro" Height="350" Width="525">
     <Grid Background="#FF937777">
 
-        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="35" Margin="198,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="35" Margin="198,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtID_TextChanged"/>
         <Label x:Name="lblID" Content="ID (Aluno):" HorizontalAlignment="Left" Margin="69,69,0,0" VerticalAlignment="Top" Height="35" Width="88" FontWeight="Bold" FontSize="16"/>
         <Label Content=" Cadastro" HorizontalAlignment="Left" Margin="181,8,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="159" Height="48" FontWeight="Bold" FontFamily="Simplified Arabic Fixed" FontSize="24">
             <Label.RenderTransform>
@@ -24,7 +24,8 @@
         <TextBox x:Name="txtNome" HorizontalAlignment="Left" Height="40" Margin="198,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="RELATÓRIO:" HorizontalAlignment="Left" Margin="10,206,0,0" VerticalAlignment="Top" Width="122" FontWeight="Bold" FontSize="18"/>
         <TextBox x:Name="txtRelatorio" HorizontalAlignment="Left" Height="90" Margin="137,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
-        <Button x:Name="btnEnviar" Content="ENVIAR" HorizontalAlignment="Left" Margin="432,234,0,0" VerticalAlignment="Top" Width="75" Click="btnEviar_Click"/>
+        <Button x:Name="btnEnviar" Content="ENVIAR" HorizontalAlignment="Left" Margin="432,218,0,0" VerticalAlignment="Top" Width="75" Click="btnEviar_Click"/>
+        <Button x:Name="btnVoltar" Content="VOLTAR" HorizontalAlignment="Left" Margin="432,265,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
 
 
     </Grid>

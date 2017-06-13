@@ -32,3 +32,4 @@ D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\MainWindow.baml
 D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\TarefaLP4.g.resources
 D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\TarefaLP4.Properties.Resources.resources
 D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\TarefaLP4.csproj.GenerateResource.Cache
+D:\TrabalhoLp4\TarefaLP4\TarefaLP4\obj\Debug\Cadastro.g.cs

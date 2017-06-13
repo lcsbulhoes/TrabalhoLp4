@@ -1,0 +1,13 @@
+﻿<Window x:Class="TrabalhoLP4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="374.895" Width="788.599">
+    <Grid x:Name="wdInicio1" Background="#FF5B2A2A" Margin="0,0,2,0" RenderTransformOrigin="-0.23,0.421">
+        <Label x:Name="lblBoasVindas" Content="Bem-vindo(a) ao programa de relatório de alunos." HorizontalAlignment="Center" Margin="64,26,61,284" VerticalAlignment="Center" Height="30" Width="588" FontFamily="Simplified Arabic Fixed" FontSize="20" Background="{x:Null}" Foreground="#FFBBADAD"/>
+        <Label Content="O que deseja?" HorizontalAlignment="Left" Margin="156,81,0,0" VerticalAlignment="Top" Height="64" Width="408" FontFamily="Simplified Arabic Fixed" FontSize="48" Foreground="#FFBBADAD"/>
+        <Button x:Name="btnCadastrarRelatorio" Content="Cadastrar&#xD;&#xA;Relatório" HorizontalAlignment="Left" Margin="46,182,0,0" VerticalAlignment="Top" Width="131" Height="93" FontFamily="Simplified Arabic Fixed" Click="btnCadastrarRelatorio_Click" FontSize="18"/>
+        <Button x:Name="btnConsultarRelatorio" Content="Consultar&#xD;&#xA;Relatório" HorizontalAlignment="Left" Margin="210,182,0,0" VerticalAlignment="Top" Width="145" Height="93" Click="btnConsultarRelatorio_Click" FontSize="18"/>
+        <Button x:Name="btnAtualizarRelatorio" Content="Atualizar &#xD;&#xA;Relatório" HorizontalAlignment="Left" Margin="401,182,0,0" VerticalAlignment="Top" Width="135" Height="93" FontSize="18" Click="btnAtualizarRelatorio_Click"/>
+        <Button x:Name="btnExcluirRelatorio" Content="Excluir&#xD;&#xA;Relatório" HorizontalAlignment="Left" Margin="560,182,0,0" VerticalAlignment="Top" Width="133" Height="93" FontSize="18" Click="btnExcluirRelatorio_Click"/>
+    </Grid>
+</Window>

@@ -34,7 +34,7 @@ namespace TarefaLP4
                 CommandText = "SELECT * FROM DIARIO WHERE NomeAluno = @nome;"
             };
 
-            cmd.Parameters.AddWithValue("@nome", txtAlunoBuscado.Text);
+            //cmd.Parameters.AddWithValue("@nome", txtAlunoBuscado.Text);
 
             //Executa o comando no banco.
             cmd.Connection.Open();
@@ -50,15 +50,22 @@ namespace TarefaLP4
                     string nome = reader.GetString(1);
                     string relatorio = reader.GetString(2);
 
-                    txtMostrarRelatorio.Text = relatorio;
+                    
 
                 }
             }
         }
 
+        
+
+        private void btnExcluirRelatorio_Click(object sender, RoutedEventArgs e)
+        {
+            new MainWindow().ShowDialog();
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            new Consultar().ShowDialog();
         }
     }
 }

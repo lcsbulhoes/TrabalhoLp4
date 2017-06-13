@@ -10,43 +10,34 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 
-namespace TarefaLP4
+namespace TrabalhoLP4
 {
     /// <summary>
-    /// Interação lógica para MainWindow.xam
+    /// Interaction logic for Cadastrar.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Cadastrar : Window
     {
-        public MainWindow()
+        public Cadastrar()
         {
             InitializeComponent();
         }
 
         private void btnEviar_Click(object sender, RoutedEventArgs e)
         {
-            /*
-           // Criação do objeto Connection, que é quem, de fato, estabelece a conexão com o Banco
-           MySqlConnection conn = new MySqlConnection("Server=127.0.0.1;Database=Relatorio;Uid=root;Pwd=");
-           // Criação do objeto MySqlCommand, que controla a interação com o Banco de dados.
-           MySqlCommand cmd1 = new MySqlCommand();
-           cmd1.Connection = conn;
-           cmd1.CommandText = "INSERT INTO Relatorio (Id, NomeAluno, Relatorio) VALUES (@Id, @NomeAluno, @Relatorio);";*/
-
-            // Forma suscinta de criar e configurar o objeto MySqlCommand
             MySqlCommand cmd = new MySqlCommand
             {
-                Connection = new MySqlConnection("Server=127.0.0.1; Database=ControleAlunos; Uid=root; Pwd ="),
-                CommandText = "INSERT INTO Diario (Id, NomeAluno, Relatorio) VALUES (@Id, @NomeAluno, @Relatorio);"
+                Connection = new MySqlConnection("Server=127.0.0.1; Database=controlealuno; Uid=root; Pwd ="),
+                CommandText = "INSERT INTO Diario (Id, Data, NomeAluno, Relatorio) VALUES (@Id,@Data, @NomeAluno, @Relatorio);"
             };
 
             // Insere no lugar dos marcadores de posição (@xxxx) do CommandText os valores que estão nas textboxes
             cmd.Parameters.AddWithValue("@Id", txtID.Text);
-            cmd.Parameters.AddWithValue("@Nome", txtNome.Text);
+            cmd.Parameters.AddWithValue("@Data", txtData.Text);
+            cmd.Parameters.AddWithValue("@NomeAluno", txtNome.Text);
             cmd.Parameters.AddWithValue("@Relatorio", txtRelatorio.Text);
 
             //Executa o comando no banco.
@@ -59,11 +50,16 @@ namespace TarefaLP4
             else
                 MessageBox.Show("Algo inesperado aconteceu. Tente novamente");
         }
-        private void btnConsultaRelatorios_Click(object sender, RoutedEventArgs e)
+
+        private void txtID_TextChanged(object sender, TextChangedEventArgs e)
         {
-            new Consultar().Show();
+
         }
 
-        
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+        }
     }
-}
+
