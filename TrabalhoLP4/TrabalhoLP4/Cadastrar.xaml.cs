@@ -30,8 +30,8 @@ namespace TrabalhoLP4
         {
             MySqlCommand cmd = new MySqlCommand
             {
-                Connection = new MySqlConnection("Server=127.0.0.1; Database=controlealuno; Uid=root; Pwd ="),
-                CommandText = "INSERT INTO Diario (Id, Data, NomeAluno, Relatorio) VALUES (@Id,@Data, @NomeAluno, @Relatorio);"
+                Connection = new MySqlConnection("Server=127.0.0.1; Database=controlealuno; Uid=root; Pwd =root"),
+                CommandText = "INSERT INTO diario (Id, Data, NomeAluno, Relatorio) VALUES (@Id,@Data, @NomeAluno, @Relatorio);"
             };
 
             // Insere no lugar dos marcadores de posição (@xxxx) do CommandText os valores que estão nas textboxes
